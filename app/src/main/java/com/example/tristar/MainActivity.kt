@@ -90,8 +90,6 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
 @Composable
 fun BirthdayCardGreeting() {
     TristarTheme {
-//        Greeting("Gabby")
-        // GreetingText(message = "Happy Birthday Gabby!", from="From Mommy")
         GreetingImage(message = "Happy Birthday Gabby!", from = "From Mom")
     }
 }
